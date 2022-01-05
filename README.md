@@ -9,7 +9,7 @@
 但是你需要安装一些必要软件包至您的Linux工作站才可以使用[Buildroot manual System requirements section](https://buildroot.org/downloads/manual/manual.html#requirement). 对于 Debian/Ubuntu发行版系统，需要参考下述命令安装列出来的软件包。
 
 ```bash
-$ sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git
+$ sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git android-tools-mkbootimg
 ```
 
 ### 获取代码
