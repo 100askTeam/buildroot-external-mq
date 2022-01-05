@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCH	board/mq/overlay/rgb480x272_rtp/Makefile	/^ARCH:=riscv$/;"	m	language:Make
+ARCH	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^ARCH:=riscv$/;"	m	language:Make
+BOARD	board/mq/overlay/rgb480x272_rtp/Makefile	/^BOARD:=d1-mangopi_mq_rgb480x272_rtp$/;"	m	language:Make
+BOARD	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^BOARD:=d1-mangopi_mq_rgb800x480_gt9xx$/;"	m	language:Make
+BOARDNAME	board/mq/overlay/rgb480x272_rtp/Makefile	/^BOARDNAME:=d1-mangopi_mq_rgb480x272_rtp$/;"	m	language:Make
+BOARDNAME	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^BOARDNAME:=d1-mangopi_mq_rgb800x480_gt9xx$/;"	m	language:Make
+BOARD_CHARGER_ENABLE_SUSPEND	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_CHARGER_ENABLE_SUSPEND := true$/;"	m	language:Make
+BOARD_CHARGER_ENABLE_SUSPEND	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_CHARGER_ENABLE_SUSPEND := true$/;"	m	language:Make
+BOARD_DATAFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_DATAFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_DATAFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_DATAFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_DATAFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_DATAFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+BOARD_DATAFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_DATAFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+BOARD_OVERLAYFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_OVERLAYFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_OVERLAYFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_OVERLAYFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_OVERLAYFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_OVERLAYFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+BOARD_OVERLAYFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_OVERLAYFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+BOARD_ROOTFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_ROOTFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_ROOTFS_FLASH_BLOCK_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_ROOTFS_FLASH_BLOCK_SIZE := 4096$/;"	m	language:Make
+BOARD_ROOTFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^BOARD_ROOTFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+BOARD_ROOTFS_IMAGE_PARTITION_SIZE	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^BOARD_ROOTFS_IMAGE_PARTITION_SIZE := 524288$/;"	m	language:Make
+CPU_SUBTYPE	board/mq/overlay/rgb480x272_rtp/Makefile	/^CPU_SUBTYPE:=rv64gcxthead$/;"	m	language:Make
+CPU_SUBTYPE	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^CPU_SUBTYPE:=rv64gcxthead$/;"	m	language:Make
+CPU_TYPE	board/mq/overlay/rgb480x272_rtp/Makefile	/^CPU_TYPE:=c910$/;"	m	language:Make
+CPU_TYPE	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^CPU_TYPE:=c910$/;"	m	language:Make
+FEATURES	board/mq/overlay/rgb480x272_rtp/Makefile	/^FEATURES:=$/;"	m	language:Make
+FEATURES	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^FEATURES:=$/;"	m	language:Make
+KERNELNAME	board/mq/overlay/rgb480x272_rtp/Makefile	/^KERNELNAME:=Image dtbs$/;"	m	language:Make
+KERNELNAME	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^KERNELNAME:=Image dtbs$/;"	m	language:Make
+KERNEL_PATCHVER	board/mq/overlay/rgb480x272_rtp/Makefile	/^KERNEL_PATCHVER:=5.4$/;"	m	language:Make
+KERNEL_PATCHVER	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^KERNEL_PATCHVER:=5.4$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-broadcom$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-broadcom\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8189es$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8189es\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8189fs$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8189fs\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8723ds$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8723ds\/description  $/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8821cs$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-rtl8821cs\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-xr829$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-xr829-40M$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-xr829-40M\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/net-xr829\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-disp$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-disp\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-g2d$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-g2d\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-hdmi$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-hdmi\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-uvc$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-uvc\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-vin$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/sunxi-vin\/description$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/touchscreen-gt9xxnew$/;"	m	language:Make
+KernelPackage	board/mq/overlay/rgb800x480_gt9xx/modules.mk	/^define KernelPackage\/touchscreen-gt9xxnew\/description$/;"	m	language:Make
+MAINTAINER	board/mq/overlay/rgb480x272_rtp/Makefile	/^MAINTAINER:=Allwinner$/;"	m	language:Make
+MAINTAINER	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^MAINTAINER:=Allwinner$/;"	m	language:Make
+PRODUCT_AAPT_CONFIG	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_AAPT_CONFIG := large xlarge hdpi xhdpi$/;"	m	language:Make
+PRODUCT_AAPT_CONFIG	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_AAPT_CONFIG := large xlarge hdpi xhdpi$/;"	m	language:Make
+PRODUCT_AAPT_PERF_CONFIG	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_AAPT_PERF_CONFIG := xhdpi$/;"	m	language:Make
+PRODUCT_AAPT_PERF_CONFIG	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_AAPT_PERF_CONFIG := xhdpi$/;"	m	language:Make
+PRODUCT_BRAND	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_BRAND := allwinner$/;"	m	language:Make
+PRODUCT_BRAND	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_BRAND := allwinner$/;"	m	language:Make
+PRODUCT_CHARACTERISTICS	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_CHARACTERISTICS := musicbox$/;"	m	language:Make
+PRODUCT_CHARACTERISTICS	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_CHARACTERISTICS := musicbox$/;"	m	language:Make
+PRODUCT_DEVICE	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_DEVICE := d1-mangopi_mq_rgb480x272_rtp$/;"	m	language:Make
+PRODUCT_DEVICE	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_DEVICE := d1-mangopi_mq_rgb800x480_gt9xx$/;"	m	language:Make
+PRODUCT_MAKEFILES	board/mq/overlay/rgb480x272_rtp/TinaProducts.mk	/^PRODUCT_MAKEFILES := \\$/;"	m	language:Make
+PRODUCT_MAKEFILES	board/mq/overlay/rgb800x480_gt9xx/TinaProducts.mk	/^PRODUCT_MAKEFILES := \\$/;"	m	language:Make
+PRODUCT_MODEL	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_MODEL := Allwinner d1 dev board$/;"	m	language:Make
+PRODUCT_MODEL	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_MODEL := Allwinner d1 dev board$/;"	m	language:Make
+PRODUCT_NAME	board/mq/overlay/rgb480x272_rtp/d1_mangopi_mq_rgb480x272_rtp.mk	/^PRODUCT_NAME := d1_mangopi_mq_rgb480x272_rtp$/;"	m	language:Make
+PRODUCT_NAME	board/mq/overlay/rgb800x480_gt9xx/d1_mangopi_mq_rgb800x480_gt9xx.mk	/^PRODUCT_NAME := d1_mangopi_mq_rgb800x480_gt9xx$/;"	m	language:Make
+TARGET_CHIP	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_CHIP := sun20iw1p1$/;"	m	language:Make
+TARGET_CHIP	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_CHIP := sun20iw1p1$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_EXT4	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_EXT4 :=true$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_EXT4	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_EXT4 :=true$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_SQUASHFS	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_SQUASHFS :=true$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_SQUASHFS	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_SQUASHFS :=true$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_VFAT	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_VFAT :=true$/;"	m	language:Make
+TARGET_DATAFS_IMAGE_USE_VFAT	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_DATAFS_IMAGE_USE_VFAT :=true$/;"	m	language:Make
+TARGET_NORROOTFS_IMAGES_USE_SQUASHFS	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_NORROOTFS_IMAGES_USE_SQUASHFS := true$/;"	m	language:Make
+TARGET_NORROOTFS_IMAGES_USE_SQUASHFS	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_NORROOTFS_IMAGES_USE_SQUASHFS := true$/;"	m	language:Make
+TARGET_OVERLAYFS_IMAGE_USE_EXT4	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_OVERLAYFS_IMAGE_USE_EXT4 :=true$/;"	m	language:Make
+TARGET_OVERLAYFS_IMAGE_USE_EXT4	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_OVERLAYFS_IMAGE_USE_EXT4 :=true$/;"	m	language:Make
+TARGET_OVERLAYFS_IMAGE_USE_SQUASHFS	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_OVERLAYFS_IMAGE_USE_SQUASHFS :=true$/;"	m	language:Make
+TARGET_OVERLAYFS_IMAGE_USE_SQUASHFS	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_OVERLAYFS_IMAGE_USE_SQUASHFS :=true$/;"	m	language:Make
+TARGET_ROOTFS_IMAGES_USE_EXT4	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_ROOTFS_IMAGES_USE_EXT4 := true$/;"	m	language:Make
+TARGET_ROOTFS_IMAGES_USE_EXT4	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_ROOTFS_IMAGES_USE_EXT4 := true$/;"	m	language:Make
+TARGET_VERSION_HWREV	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_VERSION_HWREV := v1.0$/;"	m	language:Make
+TARGET_VERSION_HWREV	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_VERSION_HWREV := v1.0$/;"	m	language:Make
+TARGET_VERSION_MANUFACTURER	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_VERSION_MANUFACTURER := allwinnertech$/;"	m	language:Make
+TARGET_VERSION_MANUFACTURER	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_VERSION_MANUFACTURER := allwinnertech$/;"	m	language:Make
+TARGET_VERSION_MANUFACTURER_URL	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_VERSION_MANUFACTURER_URL := www.allwinnertech.com$/;"	m	language:Make
+TARGET_VERSION_MANUFACTURER_URL	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_VERSION_MANUFACTURER_URL := www.allwinnertech.com$/;"	m	language:Make
+TARGET_VERSION_PRODUCT	board/mq/overlay/rgb480x272_rtp/BoardConfig.mk	/^TARGET_VERSION_PRODUCT := v3.5$/;"	m	language:Make
+TARGET_VERSION_PRODUCT	board/mq/overlay/rgb800x480_gt9xx/BoardConfig.mk	/^TARGET_VERSION_PRODUCT := v3.5$/;"	m	language:Make
+UBOOT_PATCHVER	board/mq/overlay/rgb480x272_rtp/Makefile	/^UBOOT_PATCHVER:=2018$/;"	m	language:Make
+UBOOT_PATCHVER	board/mq/overlay/rgb800x480_gt9xx/Makefile	/^UBOOT_PATCHVER:=2018$/;"	m	language:Make
+ble_start	board/mq/overlay/rgb480x272_rtp/base-files/etc/bluetooth/bt_init.sh	/^ble_start() {$/;"	f	language:Sh
+ble_start	board/mq/overlay/rgb800x480_gt9xx/base-files/etc/bluetooth/bt_init.sh	/^ble_start() {$/;"	f	language:Sh
+run	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S50usb	/^run(){$/;"	f	language:Sh
+run	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S50usb	/^run(){$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/base-files/etc/bluetooth/bt_init.sh	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S00mpp	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S01logging	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S11dev	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S50telnet	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S50usb	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/base-files/etc/bluetooth/bt_init.sh	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S00mpp	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S01logging	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S11dev	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S50telnet	/^start() {$/;"	f	language:Sh
+start	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S50usb	/^start() {$/;"	f	language:Sh
+start_hci_attach	board/mq/overlay/rgb480x272_rtp/base-files/etc/bluetooth/bt_init.sh	/^start_hci_attach()$/;"	f	language:Sh
+start_hci_attach	board/mq/overlay/rgb800x480_gt9xx/base-files/etc/bluetooth/bt_init.sh	/^start_hci_attach()$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/base-files/etc/bluetooth/bt_init.sh	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S00mpp	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S01logging	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S11dev	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S50telnet	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb480x272_rtp/busybox-init-base-files/etc/init.d/S50usb	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/base-files/etc/bluetooth/bt_init.sh	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S00mpp	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S01logging	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S11dev	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S50telnet	/^stop() {$/;"	f	language:Sh
+stop	board/mq/overlay/rgb800x480_gt9xx/busybox-init-base-files/etc/init.d/S50usb	/^stop() {$/;"	f	language:Sh

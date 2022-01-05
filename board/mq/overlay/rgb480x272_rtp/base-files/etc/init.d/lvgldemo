@@ -1,0 +1,28 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=15
+
+start(){
+    echo start lvgl demo
+    sleep 6
+    service_start /usr/bin/lv_examples 0 &
+}
+
+stop(){
+    echo stop demo
+    service_stop /usr/bin/lvgl_demo
+}
+
+restart(){
+    echo restart demo
+    service_restart /usr/bin/lvgl_demo
+}
+
+enable(){
+    echo enable demo
+}
+
+disable(){
+    echo disable demo
+}
+

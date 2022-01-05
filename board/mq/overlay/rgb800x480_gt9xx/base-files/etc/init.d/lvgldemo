@@ -1,0 +1,36 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=15
+
+start(){
+    echo start lvgl demo
+
+    while [ 1 ]; do
+        if [ -e /dev/input/event2 ]; then
+	    /bin/wifi_connect_ap_test whycan 13800138000
+            service_start /usr/bin/lvgl_demo;
+            break;
+        else
+            sleep 1;
+        fi;
+    done;
+}
+
+stop(){
+    echo stop demo
+    service_stop /usr/bin/lvgl_demo
+}
+
+restart(){
+    echo restart demo
+    service_restart /usr/bin/lvgl_demo
+}
+
+enable(){
+    echo enable demo
+}
+
+disable(){
+    echo disable demo
+}
+
