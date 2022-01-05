@@ -21,7 +21,7 @@ jobs:
           ref: master
           path: buildroot
       - name: Install buildroot dependencies
-        run: sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git mtools
+        run: sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git mtools android-tools-mkbootimg
       - name: Configure Buildroot
         run: make -C buildroot BR2_EXTERNAL=../buildroot-external-mq O=../output ${{ matrix.config }}
       - name: Build Buildroot
