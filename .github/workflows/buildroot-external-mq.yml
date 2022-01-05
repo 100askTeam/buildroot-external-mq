@@ -1,0 +1,37 @@
+name: CI
+
+# 在master分支发生push事件时触发。
+on:
+  push:
+    branches:
+      - main      
+jobs:
+  build-all:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        config: [mq_core_defconfig ]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: buildroot-external-mq
+      - uses: actions/checkout@v2
+        with:
+          repository: 100askTeam/buildroot_aw-ol
+          ref: main
+          path: buildroot
+      - name: Install buildroot dependencies
+        run: sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git mtools
+      - name: Configure Buildroot
+        run: make -C buildroot BR2_EXTERNAL=../buildroot-external-mq O=../output ${{ matrix.config }}
+      - name: Build Buildroot
+        run: make -C buildroot BR2_EXTERNAL=../buildroot-external-mq O=../output
+      - name: Run legal-info
+        run: make -C buildroot BR2_EXTERNAL=../buildroot-external-mq O=../output legal-info
+      - name: Compress sdcard.img
+        run: gzip -9 output/images/sdcard.img
+      - name: Store images
+        uses: actions/upload-artifact@v2
+        with:
+          name: image-${{ matrix.config }}
+          path: output/images/sdcard.img.gz
